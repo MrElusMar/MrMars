@@ -1,0 +1,143 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+    background-color: whitesmoke;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 25px;
+    margin-right: 20px;
+}
+
+.containerbox {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navlogo1{
+    margin-top:0px;
+}
+
+.navlogo2{
+    margin-top: 0px;
+}
+a {
+    /*this changes the nav bar text */
+    text-decoration: none;
+    color: darkorange;
+
+}
+
+.bardreveal {
+    margin-right: auto;
+    float: right;
+    display: inline;
+}
+
+.page1txt {
+    display: flex;
+    align-items: right;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 0px;
+}
+
+.page1txt2 {
+    text-align: right;
+    position: relative;
+    display: inline;
+}
+
+.row {
+    /*this is the CAPS HEADING 1 */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex: basis 50%;
+    min-width: 300px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+
+
+}
+
+.col-2 h1 {
+    font-size: 40px;
+    line-height: 60px;
+    margin: 25px 0;
+
+}
+
+.btn1 {
+    display: inline-block;
+    background: orange;
+    color: white;
+    padding: 8px 15px;
+    margin: 20px 0;
+    border-radius: 50px;
+    transition: background 0.5s; /*want all three buttons to change col on hover change */
+    
+
+}
+
+.btn2 {
+    display: inline-block;
+    background: orange;
+    color: white;
+    padding: 8px 15px;
+    margin: 20px 0;
+    border-radius: 50px;
+}
+
+.btn3 {
+    display: inline-block;
+    background: orange;
+    color: white;
+    padding: 8px 15px;
+    margin: 20px 0;
+    border-radius: 50px;
+
+}
+
+
+

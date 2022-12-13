@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!--Stats the doc type file-->
+<html lang="en">
+<!--this is tbhe language base-->
+
+<head>
+    <!--all your main headings and style expression can go here-->
+    <meta charset="UTF-8">
+    <!--random code jargon dw for now -->
+    <title>Wandering Caretaker Guide</title>
+    <!--this is displayed as the title on browser tabs-->
+    <link rel="stylesheet" href="style.css">
+    <!--so your CSS is linked-->
+</head>
+<!--this closes the head tag-->
+
+<body>
+
+
+    <div class="containerbox">
+        <!--this container box will be changed, holds the nav bar customisation too-->
+        <div class="navbar">
+            <div class="navlogo1">
+                <!--currently not in use as a lone class-->
+                <!--the bard pic in the top left-->
+                <img src="data:image/jpeg;base64,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"
+                    width="120px">
+                <!--changes the pic specs slightly in the immediate-->
+
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Bard-Index.html">Home</a></li>
+                    <li><a href="Bard-Runes.html">Bard Runes</a></li>
+                    <li><a href="Bard-Items.html">Bard Items</a></li>
+                    <!--this is the nav bar-->
+                    <li><a href="Bard-Matchups.html">Bard Matchups</a></li>
+                    <li><a href="Bard-Skills.html">Bard Skills</a></li>
+
+
+                    </li>
+
+                </ul>
+                <!--tag bs, these can bew highlighted by hovering over them all-->
+            </nav>
+            <div class="navlogo2"><img
+                    src="https://preview.redd.it/jvj4s4y240331.png?auto=webp&s=b2d3444ff04a7a2c5d1ae682750ce465b773a400"
+                    width="120px"></div>
+
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <!--change these up in post-->
+                <h1>PLAYING AS BARD!</h1>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+                <P>Explore with Bard:</P>
+                <div class="btncustm">
+                    <a href="https://www.youtube.com/watch?v=CX8iSobsKTY" class="btn1">Atop the mountain</a>
+                    <br><a href="https://www.youtube.com/watch?v=-tNDoXIYptk" class="btn2">Champion Spotlight</a>
+                    <br><a href="https://www.youtube.com/playlist?list=PL-TM5XNBRKzTO9ZuIL-8tfSHBtoQrHDc7"
+                        class="btn3">Gameplay from
+                        around the world</a>
+
+                </div>
+
+
+            </div>
+            <div class="col-2">
+                <img src="http://i0.wp.com/media.criticalhit.net//2015/02/bard-reveal-LoL.jpg" width="550px">
+
+            </div>
+        </div>
+
+    </div>
+
+    <body>
+        <section class="Bard.Abilities.html">
+            <!--S1/p1-->
+            <h1>Passive-Traveller's Call and Meeps</h1>
+            <img
+                src="https://static.wikia.nocookie.net/leagueoflegends/images/b/ba/Bard_Traveler%27s_Call.png/revision/latest?cb=20150224202801">
+            <p>Ancient Chimes-Small chimes appear throughout Summoner's Rift attracted to Bard's presence these Chimes
+                will
+                spawn in relative proximity
+                to Bard. Passing over them grant several temporary buffs: 24% movement speed out of combat (Lasts 7s,
+                stacks
+                up to 5 times
+                each chime grants an additional 14% move speed stacking up to 80%ms), 20 +1 per minute post 5 minutes
+                level
+                experience and 12% maximum
+                mana. Bard empowers his auto attacks with each Chime he collects, granting buffs each 5 Chimes Bard
+                collects.
+
+                <br> <br>MEEPS!-Bard attracts Meeps to his side, starting the game with one by his side. As he collects
+                more
+                ancient chimes
+                throughout the map Bard gains more access to Meeps. Bard's auto attacks deal extra damage with his
+                Meeps.
+                Every 5 chimes deals
+                35 + 14 per 5 Meeps collected + 30%AP bonus magic damage on hit. Plus these are some additional effects:
+
+                <br> <br> There are some important breakpoints with this passive:
+
+                <br> <br> At 5 Chimes collected, Bard's auto attack slows enemies by 25% for 1s
+                <br> At 15 Chimes: Bard's Meep empowered auto attacks will deal splash damage behind the initial target
+                slowing all affected enemies
+                <br> At 25 Chimes: Slow = 35%
+                <br> At 35 Chimes: This splash damage radius is increased behind the initial target
+                <br> At 45 Chimes: Slow = 45%
+                <br> At 60 Chimes: Slow = 55%
+                <br> At 75 Chimes: Slow = 65%
+                <br> At 85 Chimes: Slow = 75%
+
+                <br> <br> Meep Spawn Timers:
+                <br>Meeps spawn every 8-4s (based on current number of Chimes):
+
+                <br> <br> 0 Chimes: 8s
+                <br>20 Chimes: 7s
+                <br> 40 Chimes: 6s
+                <br> 55 Chimes: 5s
+                <br> 70 Chimes: 4s
+
+                <br> <br> Bard's Meep Army: Depending on the amount of Chimes Bard has collected, depends on the amount
+                of
+                Meeps he attracts(1-9)
+                <br> 0 Chimes: 1
+                <br> 10 Chimes: 2
+                <br> 30 Chimes: 3
+                <br> 50 Chimes: 4
+                <br> 65 Chimes: 5
+                <br> 80 Chimes: 6
+                <br> 90 Chimes: 7
+                <br> 95 Chimes: 8
+                <br> 100 Chimes: 9
+
+            <p>Using this passive doesnt take much in the way of active use. The best utilisation however is to make
+                sure
+                that our chime count
+                mirrors out vision score count; 2 per minute. Next is to make sure that when we auto later on when we
+                have
+                more meeps to space out
+                our autos because they have a CC component in that they slow, and slows don't stack, so wait for the
+                slow to
+                wear off, then re apply
+                the CC. Make sure to roam and hit the breakpoints as you move around the map and try to time them for
+                important fight, skirmishes and picks.
+            </p>
+            </p>
+
+        </section>
+
+        <section>
+            <h1>Q-Cosmic Binding</h1>
+            <img
+                src="https://static.wikia.nocookie.net/leagueoflegends/images/e/e2/Bard_Cosmic_Binding.png/revision/latest?cb=20150224202836">
+            <p>Mana: 60 Mana
+                <br> Cooldown: 11/10/9/8/7
+                <br> Cast Time: .25s
+                <br> Target Range: 850
+                <br> Skillshot Width: 60
+                <br> Speed: 1500
+                <br> Damage: 80/125/170/215/260 (+65%AP)
+                <br> CC Duration: 1/1.2/1.4/1.6/1.8
+
+                <br><br> Bard fires cosmic energy as a straight line skillshot, damaging the first target it hits and
+                carries on behind for the
+                same distance. If the skillshot collides with another enemy, wall or structure, both are stunned,
+                otherwise
+                a slow of 60% is applied.
+
+                <br><br>New Bard player tips: Do not use this ability in lane unless you are going for the stun. This
+                ability wastes mana needlessly as a harrassment tool.
+                Bard has good auto attack damage with his passive and during the later stages of lane phase (post 6mins)
+                should have 15 Meeps
+                meaning Bard also does splash damage on hit with autos. This ability should only be used in lane as a
+                peeling tool.
+                <br>Cosmic Binding double stun hit boxes are deceptive at best, learning the angles will take time,
+                but once mastered you can stun from some very weird angles resulting in stuns in places that will
+                surprise
+                ally and enemy alike.
+
+            </p>
+        </section>
+        <section>
+            <h1>W-Caretaker's Shrine</h1>
+            <img
+                src="https://static.wikia.nocookie.net/leagueoflegends/images/7/78/Bard_Caretaker%27s_Shrine.png/revision/latest?cb=20150224202906">
+            <p>Mana: 70
+                <br> Cooldown: 14
+                <br> Cast Time: .25s
+                <br> Target Range: 800
+                <br> Min Heal: 25/50/75/100/125(+30%AP)
+                <br> Max Heal: 50/87.5/125/162.5/200(+60%AP)
+
+                <br><br>Bard creates a shrine at the target location that when stepped on by an ally heals them, when
+                stepped on by an enemy destroys it.
+                Bard can have upto 3 shrines active on the map at any one time. These shrines charge over 10s granting
+                more
+                HP as they charge.
+                If a 4th shrine is placed, the 4th shrine will replace the first one placed (FIFO) but if targetted
+                directly
+                onto an ally it will not,
+                because it will be coded as a direct heal.
+                Bard and his allies that are healed by the shrines gain +30% MS over 1.5s post heal.
+                <br></br>New Bard Player Tips: This ability is great putting a second point into at level 4, the value
+                doubles and the mana stays the same.
+                This in turn helps mitigate Bard's subpar lane phase, also will help keep your ADC healthy whilst you
+                roam.
+                Leaving some mind mid lane
+                as you roam back and forth isnt a bad idea either. Placement wise, make sure to place them not too far
+                away,
+                a good general placement is
+                in line with the caster minions and/or along escape paths.
+            </p>
+        </section>
+        <section>
+            <h1>E-Magical Journey</h1>
+            <img
+                src="https://static.wikia.nocookie.net/leagueoflegends/images/4/4e/Bard_Magical_Journey.png/revision/latest?cb=20150224202933">
+            <p> Mana: 30
+                <br> Cooldown: 22/20.5/19/17.5/16
+                <br> Cast Time: 0.25
+                <br> Target Range: 900
+                <br> Speed: 900/1197
+                <br> Bard opens a one wall tunnel through any eligble terrain, he and his allies can travel through this
+                tunnel faster than enemies,
+                hence the two values. The tunnel will last for 10s total.
+                <br></br> New Bard Player Tips: There are a lot of pieces of terrain on the map that will require
+                practice
+                to move through. The skillshot
+                indicator will need to be dragged through the entire terrain. Positoning next to walls with Bard is
+                great
+                for escaping and setting up
+                plays, this might be one of Bard's hardest aspects of his kit, but pivotal to playing Bard well. Do not
+                waste this, the CD is decently long
+                and portaling affects both teams, so DO NOT give flank angles for the enemy unless you follow up with a
+                Cosmic Binding or Tempered Fate or for bait.
+                <!--Base to inhib-->
+                <!--T3 to T2 turret-->
+                <!--Krug camp to tri bush bot-->
+                <!--Alcove to T1 turret-->
+                <!--T3 mid or bot to T3 mid or bot-->
+            </p>
+        </section>
+        <section>
+            <h1>R-Tempered Fate</h1>
+            <img
+                src="https://static.wikia.nocookie.net/leagueoflegends/images/c/ca/Bard_Tempered_Fate.png/revision/latest?cb=20150224202956">
+            <p> Mana: 100
+                <br> Cooldown: 110/95/80
+                <br> Cast Time: 0.5s
+                <br> Target Range: 3400
+                <br> Effect Radius: 350
+                <br></br> Bard sends cosmic energy arching to a target location, granting sight during travel. Upon
+                impact
+                it puts all units caught stasis for 2.5s
+                all units hit are revealed for the statis duration.
+                <br></br> New Bard Player Tips: This ability has some of the highest mastery ceilings the game has to
+                offer
+                and deserves a guide itself.
+                practice makes perfect. As a general rule ult the enemy backline in teamfights. One word of caution, be
+                careful about conflicting ultimate usage.
+                Some ally champions will be decimated by your mistimed ultimate usage. So think before ulting and make
+                sure
+                there are no conflicting goals at the time.
+                Every ult should try to land and create pressure, this is Bard's signature ability. Make or break, get a
+                flash, get a kill or save an ally. No inbetween.
+            </p>
+        </section>
+
+    </body>
+
+</html>
